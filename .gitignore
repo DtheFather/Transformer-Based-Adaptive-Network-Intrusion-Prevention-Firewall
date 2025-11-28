@@ -1,0 +1,29 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Logs and runtime data
+results/firewall_log.csv
+results/flows_snapshot.csv
+
+# Large datasets
+data/
+*.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model binaries
+model/tranwall.pt
+
+# OS crap
+.DS_Store
+Thumbs.db
+
+# VS Code config
+.vscode/

@@ -72,6 +72,14 @@ project-root/
 ├── model/ # Training/testing notebooks and model weights
 ├── results/ # Logs, snapshots, confusion matrix exports
 └── data/ # UNSW-NB15 dataset (excluded from Git)
+└── cli/ #cli 
+
+Machine Learning Model
+
+- Architecture: 2-layer Transformer Encoder
+- Task: Binary classification (normal vs malicious network flow)
+- Dataset: UNSW-NB15
+- Trained using `tranwall_train.ipynb`
 
 📈Training Performance (Real Woeld)
 ----------------------------

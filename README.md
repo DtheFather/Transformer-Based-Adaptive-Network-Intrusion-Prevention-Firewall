@@ -114,11 +114,28 @@ To test the TranWall project, follow these steps:
 2. **Integration Testing**: Run the `integration_test.py` script to test the system's overall functionality.
 3. **Performance Testing**: Run the `performance_test.py` script to test the system's performance under heavy network traffic.
 
+To simulate attacks, send abnormal packets or run a simple fake attack script. When detected:
+
+- The IP is logged in `firewall_log.csv`
+- The IP is blocked via iptables
+- Dashboard updates immediately
+
+
+
 📸 Screenshots
 ---------------
 [Placeholder for screenshot 1]
 [Placeholder for screenshot 2]
 [Placeholder for screenshot 3]
+
+
+To simulate attacks, send abnormal packets or run a simple fake attack script. When detected:
+
+- The IP is logged in `firewall_log.csv`
+- The IP is blocked via iptables
+- Dashboard updates immediately
+
+
 
 
 👤 Author

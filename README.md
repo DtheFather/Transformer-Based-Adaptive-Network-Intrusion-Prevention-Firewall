@@ -34,7 +34,7 @@ The following features are included in the TranWall project:
 9. **Automatic Updates and Patching**: Ensures the system stays up-to-date with the latest security patches and updates.
 10. **Multi-Platform Support**: Compatible with various operating systems, including Windows, Linux, and macOS.
 
-🏛️Architecture
+🏛️ *Architecture*
 <img width="2252" height="1302" alt="mermaid-diagram-2025-11-28-221236" src="https://github.com/user-attachments/assets/a7980516-5cc9-42bf-8e46-789ae002a6e7" />
 
 

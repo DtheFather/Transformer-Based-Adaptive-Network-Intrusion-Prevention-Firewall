@@ -35,29 +35,8 @@ The following features are included in the TranWall project:
 10. **Multi-Platform Support**: Compatible with various operating systems, including Windows, Linux, and macOS.
 
 🏛️Architecture
-      ┌───────────────┐
-      │ capture.py     │  ---> Captures packets using Scapy
-      └───────▲───────┘
-              │ flows
-              ▼
-   ┌───────────────────────┐
-   │ defender.py (ML Model) │ ---> Classifies flow: Benign / Malicious
-   └───────────▲───────────┘
-               │ malicious IP
-               ▼
-     ┌──────────────────────┐
-     │ blocker.py (iptables) │ ---> Adds DROP rules
-     └───────────┬──────────┘
-                 │ logs
-                 ▼
-   ┌──────────────────────────┐
-   │ firewall_log.csv          │
-   └──────────────────────────┘
-                 │
-                 ▼
-    ┌────────────────────────┐
-    │ Streamlit Dashboard     │
-    └────────────────────────┘
+<img width="2252" height="1302" alt="mermaid-diagram-2025-11-28-221236" src="https://github.com/user-attachments/assets/a7980516-5cc9-42bf-8e46-789ae002a6e7" />
+
 
 
 🧰 Tech Stack Table
